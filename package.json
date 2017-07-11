@@ -24,9 +24,6 @@
   "bugs": {
     "url": "https://github.com/brentvatne/react-native-scrollable-tab-view/issues"
   },
-  "peerDependencies": {
-    "react-native": ">=0.20.0"
-  },
   "homepage": "https://github.com/brentvatne/react-native-scrollable-tab-view#readme",
   "dependencies": {
     "react-static-container": "^1.0.1",
