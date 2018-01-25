@@ -1,7 +1,7 @@
 {
-  "name": "@drivetribe/react-native-scrollable-tab-view",
+  "name": "react-native-scrollable-tab-view",
   "version": "0.8.0",
-  "description": "[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint -c .eslintrc . --ignore-path .gitignore",
@@ -24,10 +24,14 @@
   "bugs": {
     "url": "https://github.com/brentvatne/react-native-scrollable-tab-view/issues"
   },
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
   "homepage": "https://github.com/brentvatne/react-native-scrollable-tab-view#readme",
   "dependencies": {
-    "react-static-container": "^1.0.1",
-    "react-timer-mixin": "^0.13.3"
+    "react-timer-mixin": "^0.13.3",
+    "prop-types": "^15.6.0",
+    "create-react-class": "^15.6.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
